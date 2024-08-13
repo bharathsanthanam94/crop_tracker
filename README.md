@@ -2,6 +2,8 @@
 
 Detection and tracking of crops and weeds using Yolox + ByteTrack
 
+![Tracker_crop_weed](./images/tracker_weeds.gif)
+
 * Detection: Object detection operates on individual frames independently. It identifies and locates objects in each frame, but it doesn't maintain any information about how these detections relate to each other across different frames. Each frame is processed in isolation.
 * Tracking: Tracking assigns a unique identifier (ID) to each detected object and maintains this ID across multiple frames. This allows the system to recognize that the "Crop" detected in frame 1, frame 2, and frame 3 is actually the same crop across frames.
 
