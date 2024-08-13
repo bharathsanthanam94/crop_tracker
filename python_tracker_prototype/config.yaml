@@ -1,0 +1,16 @@
+track_thresh: 0.5
+track_buffer: 30
+match_thresh: 0.8
+mot20: False
+min_box_area: 
+aspect_ratio_thresh: 1.6
+use_bbox_filters: False
+input_data_path:  "/home/agrobot/agrobot-jetsons/cpp-TensorRT-inference/dataset_subset"
+save_det_path: "/home/agrobot/agrobot-jetsons/python-TensorRT-inference/inference_results2/"
+engine_path: "/home/agrobot/agrobot-jetsons/cpp-TensorRT-inference/models/yolox_m.engine"
+save_tracker_path: "/home/agrobot/agrobot-jetsons/python-TensorRT-inference/output_tracker.mp4"
+input_h: 640
+input_w: 640
+conf_threshold: 0.3
+nms_threshold: 0.45
+single_pred_size: 7
